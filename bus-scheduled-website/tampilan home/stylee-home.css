@@ -204,3 +204,24 @@ body {
   background-color: #ffae00;
   justify-content: center;
 }
+
+.cara{
+  background-color: rgb(255, 255, 255) ;
+}
+
+.cara .secondary-content h2{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  color: black;
+}
+
+.cara .secondary-content img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10%;
+  position: relative;
+  display: flex;
+}
+
