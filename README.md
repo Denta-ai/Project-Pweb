@@ -1,7 +1,7 @@
 # Project-Pweb
 
 Judul project : 
-Penjadwalan Bus di Perusahaan Oto Bus
+Penjadwalan Bus di Perusahaan Oto Bus berbasis web
 
 anggota :
 Denta Septyan Afandi (2200018001),
