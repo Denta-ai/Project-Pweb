@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="stylee-home.css" />
     <link rel="stylesheet" href="media-device.css "/>
+    <link rel="stylesheet" href="popup.css"/>
   </head>
   <body>
     <!-- Navbar start -->
@@ -29,12 +30,30 @@
         <a href="#carapesan">Cara Pesan</a>
         <a href="#about">Tentang Kami</a>
         <a href="#contact">Kontak</a>
+        <a href="#login">Login</a>
       </div>
-
       <div class="navbar-extra">
         <a href="#" id="search"><i data-feather="search"></i></a>
         <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
         <a href="#" id="slide-menu"><i data-feather="menu"></i></a>
+      </div>
+      <div class="overlay" id="login">
+        <div class="wrapper">
+            <h2>Log In</h2>
+            <a href="#" class="close">&times;</a>
+            <div class="content">
+                <div class="container">
+                    <form>
+                        <label style="color: black;">Username</label>
+                        <input type="text" >
+                        <label style="color: black;">Password</label>
+                        <input type="password" >
+                        <input type="submit" value="LOGIN">
+                        <p style="color: black;">Lupa bang? Sign up</p>
+                    </form>
+                </div>
+            </div>
+        </div>
       </div>
     </nav>
     <!-- Navbar end -->
