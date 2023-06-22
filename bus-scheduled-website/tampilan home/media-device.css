@@ -33,6 +33,20 @@
     padding: 0.5rem;
     font-size: 2rem;
   }
+
+  .about .row {
+    flex-wrap: wrap;
+  }
+  .secondary-content {
+    min-height: 100vh;
+    display: flow-root;
+    align-items: center;
+    background-image: url("images/cara.png");
+    background-repeat: no-repeat;
+    background-size: 70vh;
+    background-position: center;
+    position: relative;
+  }
 }
 /* Mobile */
 @media (max-width: 450px) {
@@ -40,4 +54,3 @@
     font-size: 55%;
   }
 }
-
